@@ -16,7 +16,6 @@ h1 {
   gap: 10px; /* Space between emoji and text */
 }
 
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -93,44 +92,4 @@ h1 {
   font-size: 30px;
   color: white;
   padding: 15px;
-  cursor: pointer;
-  user-select: none;
-  z-index: 1001;
-}
-
-.prev {
-  left: 20px;
-}
-
-.next {
-  right: 20px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.5); /* Highlight on hover */
-  border-radius: 50%;
-}
-
-.nav-list a {
-  font-size: 1.5em;
-  color: #0070f3;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-  margin: 20px 0;
-}
-
-.nav-list a:hover {
-  text-decoration: underline;
-  color: #0059c1;
-}
-
-.nav-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-.hidden {
-  display: none !important;
-}
+  cursor: poi
