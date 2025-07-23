@@ -93,3 +93,26 @@ h1 {
   color: white;
   padding: 15px;
   cursor: poi
+
+.prev, .next {
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+.prev:focus,
+.prev:active,
+.next:focus,
+.next:active {
+  background: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
